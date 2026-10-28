@@ -15,7 +15,7 @@ st.markdown("The first holds information on the weather in London. It holds 8402
 st.markdown("The second holds information on metro data in London. It holds 470 rows and 16 columns. "
             "Source is Brightspace")
 
-st.markdown("The third holds information on bike rental data in London. The form will be given explained later on. "
+st.markdown("The third holds information on bike rental data in London. The form will be explained later on. "
             "Source is 'https://cycling.data.tfl.gov.uk/'")
 
 
