@@ -29,7 +29,8 @@ st.markdown("**The bike rental data was much more challenging:**\n"
             "- Dataframes hold information on bike rentals for only a single week. \n"
             "To get data for a year we needed to retrieve and combine 53 datasets. \n"
             "- This made a total dataset of more than 10.000.000 rows. \n"
-            "- Rental stations are identified by name. We needed to geolocate them. ")
+            "- Rental stations are identified by name. We needed to geolocate them. \n"
+            "After 2 steps more than 99% of the locations were found, the rest was dropped.")
 
 
 st.markdown("The notebooks used to prepare the data and test the visuals in the presentation with all steps are also on GitHub: "
