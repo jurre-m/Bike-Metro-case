@@ -32,7 +32,6 @@ st.markdown("**The bike rental data was much more challenging:**\n"
             "- Rental stations are identified by name. We needed to geolocate them. ")
 
 
-st.dataframe(df)
-st.markdown("The notebook with all steps is also on GitHub: "
-            "[Olympic_workbook.ipynb](https://github.com/JesseKnibbe/Olympic-dataset-version-1/blob/main/Olympic_workbook.ipynb)")
+st.markdown("The notebooks used to prepare the data and test the visuals in the presentation with all steps are also on GitHub: "
+            "(https://github.com/jurre-m/Bike-Metro-case)")
  
