@@ -1,0 +1,12 @@
+import streamlit as st
+
+# Define the pages
+introduction = st.Page("page_1.py", title="Introduction", icon="🎈")
+hypothesis = st.Page("page_2.py", title="Data Preparation", icon="❄️")
+answer = st.Page("page_3.py", title="Hypothesis Testing", icon="🎉")
+
+# Set up navigation
+pg = st.navigation([introduction, hypothesis, answer])
+
+# Run the selected page
+pg.run()
