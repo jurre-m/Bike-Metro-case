@@ -12,17 +12,15 @@ st.markdown("The third holds information on bike rental data in London. The form
             "Source is 'https://cycling.data.tfl.gov.uk/'")
 
 
-st.subheader("How we retrieve the data")
+st.subheader("Challenges in the data preparation")
 
-st.markdown("EXAMPLE:"
-            "All three datasets are downloaded with the **Kaggle API** (`kagglehub.dataset_download`) in our notebook, "
-            "so anyone can get exactly the same data again. The notebook then cleans and combines the datasets "
-            "and saves the result as `df_usable_case2.csv`. This app reads that file, so it stays fast. "
-            "Every step, with its output, can be checked in the notebook: "
-            "https://github.com/JesseKnibbe/Olympic-dataset-version-1/blob/main/Olympic_workbook.ipynb")
+st.markdown("The metro and weather datasets were fairly easy to use as they were")
 
-st.markdown("EXAMPLE:"
-            "**Fields we use from each dataset:**\n"
+st.markdown("The bike rental data was much more challenging. ")
+
+# mark a bulletpoint of problems (53 datasets to download) (matching rental station name to a location) (size of the datafile)
+
+st.markdown("**Fields we use from each dataset:**\n"
             "- *dataset_olympics.csv*: ID, Sex, Age, Height, Weight, Team, NOC, Year, Season, City, Sport, Event, Medal "
             "(the column Name is removed straight away, we do not need it)\n"
             "- *noc_region.csv*: noc_region (key) and reg (country name)\n"
