@@ -17,4 +17,9 @@ pg = st.navigation([introduction, data_preparation, distance, weather, conclusio
 
 # Run the selected page
 pg.run()
- 
+
+# Koppeling voor metrodataset
+## https://dlo.mijnhva.nl/content/enforced/764257-FT-6100DASC23-T--ALG-2627/metrogebruik_londen_2022.csv?isCourseFile=true&ou=764257
+
+# Koppeling voor weerdataset:
+## https://dlo.mijnhva.nl/content/enforced/764257-FT-6100DASC23-T--ALG-2627/weather_london.csv?isCourseFile=true&ou=764257
