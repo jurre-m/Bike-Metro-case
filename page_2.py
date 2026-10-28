@@ -26,9 +26,9 @@ st.markdown("The metro and weather datasets were fairly easy to use as they were
 # mark a bulletpoint of problems (53 datasets to download) (matching rental station name to a location) (size of the datafile)
 
 st.markdown("**The bike rental data was much more challenging:**\n"
-            "- Dataframes hold information on bike rentals for only a single week. /n"
-            "To get data for a year we neede to retrieve 53 datasets. "
-            "- This made a total dataset of more than 10.000.000 rows. "
+            "- Dataframes hold information on bike rentals for only a single week. \n"
+            "To get data for a year we neede to retrieve 53 datasets. \n"
+            "- This made a total dataset of more than 10.000.000 rows. \n"
             "- Rental stations are identified by name. We needed to geolocate them. ")
 
 
