@@ -23,14 +23,12 @@ st.subheader("Challenges in the data preparation")
 
 st.markdown("The metro and weather datasets were fairly easy to use as they were")
 
-st.markdown("The bike rental data was much more challenging. ")
-
 # mark a bulletpoint of problems (53 datasets to download) (matching rental station name to a location) (size of the datafile)
 
-st.markdown("**Fields we use from each dataset:**\n"
-            "- *dataset_olympics.csv*: ID, Sex, Age, Height, Weight, Team, NOC, Year, Season, City, Sport, Event, Medal "
+st.markdown("**The bike rental data was much more challenging:**\n"
+            "- Dataframes hold information on bike rentals for only a single week. We wanted to use data for at least a year "
             "(the column Name is removed straight away, we do not need it)\n"
-            "- *noc_region.csv*: noc_region (key) and reg (country name)\n"
+            "- Rental stations are identified by name"
             "- *world_population_data.csv*: country and the population in 1970, 1980, 1990, 2000, 2010, 2015 and 2020\n\n"
             "**Joins:** Olympic data + NOC table on the NOC code, then + population on country name and year.")
 
